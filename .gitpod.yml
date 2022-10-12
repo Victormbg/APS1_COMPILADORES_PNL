@@ -1,0 +1,5 @@
+image:
+  file: .gitpod.Dockerfile clear && python3 main.py
+tasks:
+  - init: pip3 install -r requirements.txt
+    command: clear && python3 --version
