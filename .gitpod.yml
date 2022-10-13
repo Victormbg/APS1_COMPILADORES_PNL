@@ -5,7 +5,7 @@
 image:
   file: .gitpod.Dockerfile
 tasks:  
-  - init: pip3 install .
-    command: pip3 install -r requirements.txt
+  - init: pip3 install -r requirements.txt
+    command: clear
 
 
