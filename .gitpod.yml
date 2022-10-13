@@ -5,11 +5,7 @@
 image:
   file: .gitpod.Dockerfile
 tasks:  
-  - init: pip install .
+  - init: pip3 install .
     command: pip3 install -r requirements.txt
-  - name: Importando o nltk
-    command: import nltk
-  - name: Instalando o stopwords
-    command: nltk.download('stopwords')
 
 
